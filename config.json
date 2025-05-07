@@ -1,0 +1,41 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "database": "mis_db",
+        "username": "root",
+        "password": ""
+    },
+    "security": {
+        "session_timeout_hours": 8,
+        "password_min_length": 8,
+        "password_require_special": true,
+        "password_require_uppercase": true,
+        "password_require_numbers": true,
+        "max_failed_attempts": 5,
+        "lockout_duration_minutes": 30,
+        "encryption_key": "u3SZxccXmfPumQdDzhSzW1Mf7_h8zgiHBbxSaKY8CWA="
+    },
+    "logging": {
+        "log_level": "INFO",
+        "log_file": "logs/mis_system.log"
+    },
+    "auth_database": {
+        "host": "localhost",
+        "port": 3306,
+        "database": "mis_db",
+        "username": "root",
+        "password": ""
+    },
+    "data_database": {
+        "host": "localhost",
+        "port": 3306,
+        "database": "pwd_students_db",
+        "username": "root",
+        "password": ""
+    },
+    "user_info": {
+        "last_login": "admin",
+        "last_login_time": "2025-05-07 20:37:41"
+    }
+}
